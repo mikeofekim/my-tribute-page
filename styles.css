@@ -1,0 +1,92 @@
+body {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+#main {
+    margin-top: 2%;
+    width: 100%;
+    background-color: rgb(220, 220, 222);
+    border-radius: 5px;
+}
+
+#title {
+    padding-top: 50px;
+    max-width: 100%;
+    display: block;
+    width: 70vh;
+    margin: auto;
+    text-align: center;
+    font-size: 2.3em;
+}
+.hero {
+    text-align: center;
+    max-width: 100%;
+}
+#img-div {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 0 15px 0 15px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vh;
+}
+
+#image {
+    border-radius: 3px;
+}
+
+#img-caption {
+    max-width: 100%;
+
+    margin: auto;
+    text-align: center;
+    padding: 14px 0 14px 0;
+    width: 70vh;
+}
+
+#tribute-info {
+    max-width: 100%;
+
+    width: 75vh;
+    margin: auto;
+}
+
+.ti-title {
+    max-width: 100%;
+
+    text-align: center;
+    font-size: 150%;
+    margin: 40px;
+}
+#quote {
+    margin: 50px;
+    font-style: italic;
+}
+.ti-content > li {
+    margin: 15px 0 15px 0;
+    text-align: justify;
+}
+
+#more-info {
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
+#tribute-link:hover {
+    color: #0b45a1;
+    text-decoration: underline;
+}
+#tribute-link:active {
+    text-decoration: underline;
+    color: blue;
+}
